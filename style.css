@@ -1,0 +1,125 @@
+@import url( );
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body{
+  text-align: center;
+}
+.contenedor{
+  max-width: 600px;
+  margin: auto;
+  height: 100vh;
+  border: 2px solid #ccc;
+  background: linear-gradient(to top, #d983ec, #8a5de3);
+}
+
+/* PANTALLA DE INICO*/
+
+#inicio{
+  display: block;
+}
+h1{
+  background-color: rgb(149, 227, 144);
+  color:black;
+  padding: 10px 0;
+}
+#inicio img{
+  width: 250px;
+  margin: 30px;
+}
+#inicio p{
+  color: bisque;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 30px;
+}
+
+  .button{
+    padding: 15px;
+    background: #f5cf77;
+    font-size: 15px
+    color white;
+    border: black;
+    font-weight: 600;
+    margin: 30px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+
+  /* PANTALLA DEL JUEGO */
+  #juego{
+    display: none;
+    padding: 10px;
+  }
+  #juego .tiempo{
+    border: 4px solid #ebbe53; 
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px auto;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ebbe53;
+  }
+#juego .palabra_estilo{
+  padding: 30px;
+  font-size: 40px ;
+  background-color: #a24679;
+  color: white;
+  border: 2px solid #4e4d4d;
+}
+.entrada{
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #4e4d4d;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+  margin: 50px 0;
+  display: block;
+  color: white;
+}
+.listado h3{
+  color: white;
+}
+.listado span{
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 5px;
+  margin: 0 5px;
+  border-radius: 10px;
+  background-color: #4e4d4d;
+  color: white;
+}
+  /* PANTALLA FINAL */
+#final{
+  display: block;
+}
+
+.texto_final{
+  font-size: 30px;
+  margin-top: 40px;
+  color: white;
+}
+.estilo_cantidad_final{
+  background: #fdd56a;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  font-size: 50px;
+  margin: auto;
+  color: #ff0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
